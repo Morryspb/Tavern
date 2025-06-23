@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4a285f8c43465d250bf5c552cd9cec0c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4a285f8c43465d250bf5c552cd9cec0c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4a285f8c43465d250bf5c552cd9cec0c = L.map(
+                "map_4a285f8c43465d250bf5c552cd9cec0c",
+                {
+                    center: [34.7720133, 32.4297369],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_86529cebb4e98614324bc1972f3a0115 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_86529cebb4e98614324bc1972f3a0115.addTo(map_4a285f8c43465d250bf5c552cd9cec0c);
+        
+    
+            tile_layer_86529cebb4e98614324bc1972f3a0115.addTo(map_4a285f8c43465d250bf5c552cd9cec0c);
+        
+    
+            var marker_87acdace214ffd0811bd1de679e24372 = L.marker(
+                [34.795283, 32.396653],
+                {}
+            ).addTo(map_4a285f8c43465d250bf5c552cd9cec0c);
+        
+    
+            var icon_9d6d199453efc1166217a1da40eb1000 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_87acdace214ffd0811bd1de679e24372.setIcon(icon_9d6d199453efc1166217a1da40eb1000);
+        
+    
+        var popup_e054b3bffc99628502e4034f7e82794c = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_5ba2f9f2bb3695bb4fb129026edc4d90 = $(`<div id="html_5ba2f9f2bb3695bb4fb129026edc4d90" style="width: 100.0%; height: 100.0%;">     <span style='font-size:12pt; font-weight:bold'>Louis Pafhos Breeze</span>     <br>Price: 1100     <br>Rating: 8.6     </div>`)[0];
+                popup_e054b3bffc99628502e4034f7e82794c.setContent(html_5ba2f9f2bb3695bb4fb129026edc4d90);
+            
+        
+
+        marker_87acdace214ffd0811bd1de679e24372.bindPopup(popup_e054b3bffc99628502e4034f7e82794c)
+        ;
+
+        
+    
+    
+            var marker_2749163657fcc145456c6c453b94854b = L.marker(
+                [34.743119, 32.432349],
+                {}
+            ).addTo(map_4a285f8c43465d250bf5c552cd9cec0c);
+        
+    
+            var icon_4ba4a476f4ac9549b2fb3ef907bbaf78 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_2749163657fcc145456c6c453b94854b.setIcon(icon_4ba4a476f4ac9549b2fb3ef907bbaf78);
+        
+    
+        var popup_f784aae1cfd213d9c983c43bc0b615a9 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_330d3994377ec0b11be6df3bb6ec2df5 = $(`<div id="html_330d3994377ec0b11be6df3bb6ec2df5" style="width: 100.0%; height: 100.0%;">     <span style='font-size:12pt; font-weight:bold'>Aliathon Lonian</span>     <br>Price: 1300     <br>Rating: 9.1     </div>`)[0];
+                popup_f784aae1cfd213d9c983c43bc0b615a9.setContent(html_330d3994377ec0b11be6df3bb6ec2df5);
+            
+        
+
+        marker_2749163657fcc145456c6c453b94854b.bindPopup(popup_f784aae1cfd213d9c983c43bc0b615a9)
+        ;
+
+        
+    
+    
+            var marker_9682aafaa036de8377a6985fdc3b0bf2 = L.marker(
+                [34.825371, 32.498519],
+                {}
+            ).addTo(map_4a285f8c43465d250bf5c552cd9cec0c);
+        
+    
+            var icon_ca12765b03e5eef58deb83064bbc6704 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9682aafaa036de8377a6985fdc3b0bf2.setIcon(icon_ca12765b03e5eef58deb83064bbc6704);
+        
+    
+        var popup_51a4880cbd5ac7449a519524c87fc25d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_7688c75e07dfa48c75b8bf618aa47862 = $(`<div id="html_7688c75e07dfa48c75b8bf618aa47862" style="width: 100.0%; height: 100.0%;">     <span style='font-size:12pt; font-weight:bold'>Minthis Resort</span>     <br>Price: 3000-4500     <br>Rating: 9.5     </div>`)[0];
+                popup_51a4880cbd5ac7449a519524c87fc25d.setContent(html_7688c75e07dfa48c75b8bf618aa47862);
+            
+        
+
+        marker_9682aafaa036de8377a6985fdc3b0bf2.bindPopup(popup_51a4880cbd5ac7449a519524c87fc25d)
+        ;
+
+        
+    
+    
+            var marker_adfe1945b55770655b2991a7c3c9ec3d = L.marker(
+                [34.857277, 32.362425],
+                {}
+            ).addTo(map_4a285f8c43465d250bf5c552cd9cec0c);
+        
+    
+            var icon_1464f50e24e98b15f169d1771346f478 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_adfe1945b55770655b2991a7c3c9ec3d.setIcon(icon_1464f50e24e98b15f169d1771346f478);
+        
+    
+        var popup_ba4f02892de3148fb7018473a1981606 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_fba6f94c6e7d58ecb9de50411f8fba9e = $(`<div id="html_fba6f94c6e7d58ecb9de50411f8fba9e" style="width: 100.0%; height: 100.0%;">     <span style='font-size:12pt; font-weight:bold'>Coral Beach Hotel & Resort Cyprus</span>     <br>Price: 1000     <br>Rating: 9.0     </div>`)[0];
+                popup_ba4f02892de3148fb7018473a1981606.setContent(html_fba6f94c6e7d58ecb9de50411f8fba9e);
+            
+        
+
+        marker_adfe1945b55770655b2991a7c3c9ec3d.bindPopup(popup_ba4f02892de3148fb7018473a1981606)
+        ;
+
+        
+    
+    
+            var marker_55a081fe93e56dc5cea9423f7fad317d = L.marker(
+                [34.855301, 32.364115],
+                {}
+            ).addTo(map_4a285f8c43465d250bf5c552cd9cec0c);
+        
+    
+            var icon_bda14a4eba0df7e2a54d044cb6b0b39f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_55a081fe93e56dc5cea9423f7fad317d.setIcon(icon_bda14a4eba0df7e2a54d044cb6b0b39f);
+        
+    
+        var popup_f79ceb25b73b7b4f9f12833f60997468 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f852c41aaabf88d02945167488ef83bf = $(`<div id="html_f852c41aaabf88d02945167488ef83bf" style="width: 100.0%; height: 100.0%;">     <span style='font-size:12pt; font-weight:bold'>Thalassa Boutique Hotel & Spa</span>     <br>Price: 1000     <br>Rating: 9.2     </div>`)[0];
+                popup_f79ceb25b73b7b4f9f12833f60997468.setContent(html_f852c41aaabf88d02945167488ef83bf);
+            
+        
+
+        marker_55a081fe93e56dc5cea9423f7fad317d.bindPopup(popup_f79ceb25b73b7b4f9f12833f60997468)
+        ;
+
+        
+    
+    
+            var marker_b60af28794f06b4f5c645d14da76d9eb = L.marker(
+                [34.809932, 32.394583],
+                {}
+            ).addTo(map_4a285f8c43465d250bf5c552cd9cec0c);
+        
+    
+            var icon_612d1d3ee2d21236525580f1e389ed46 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b60af28794f06b4f5c645d14da76d9eb.setIcon(icon_612d1d3ee2d21236525580f1e389ed46);
+        
+    
+        var popup_046e507d6989918a4da54e8f7cab99cb = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_b36b6c08c74dcbce0a11b23ea3c16a3d = $(`<div id="html_b36b6c08c74dcbce0a11b23ea3c16a3d" style="width: 100.0%; height: 100.0%;">     <span style='font-size:12pt; font-weight:bold'>Azia Resort & Spa</span>     <br>Price: 2000     <br>Rating: 9.1     </div>`)[0];
+                popup_046e507d6989918a4da54e8f7cab99cb.setContent(html_b36b6c08c74dcbce0a11b23ea3c16a3d);
+            
+        
+
+        marker_b60af28794f06b4f5c645d14da76d9eb.bindPopup(popup_046e507d6989918a4da54e8f7cab99cb)
+        ;
+
+        
+    
+    
+            var marker_853b0789882d08b651755b8f8e0c3902 = L.marker(
+                [34.750894, 32.421487],
+                {}
+            ).addTo(map_4a285f8c43465d250bf5c552cd9cec0c);
+        
+    
+            var icon_c911921c5eb48697cf8d642adab04d58 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_853b0789882d08b651755b8f8e0c3902.setIcon(icon_c911921c5eb48697cf8d642adab04d58);
+        
+    
+        var popup_de52f8bdb0c888a5f14dd8b58e2275cb = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f8fc2cc4e3ff2a45fb6a025f56190f8c = $(`<div id="html_f8fc2cc4e3ff2a45fb6a025f56190f8c" style="width: 100.0%; height: 100.0%;">     <span style='font-size:12pt; font-weight:bold'>Amavi, MadeForTwo Hotels - Pafhos</span>     <br>Price: 2500-3500     <br>Rating: 9.4     </div>`)[0];
+                popup_de52f8bdb0c888a5f14dd8b58e2275cb.setContent(html_f8fc2cc4e3ff2a45fb6a025f56190f8c);
+            
+        
+
+        marker_853b0789882d08b651755b8f8e0c3902.bindPopup(popup_de52f8bdb0c888a5f14dd8b58e2275cb)
+        ;
+
+        
+    
+    
+            var marker_3de28f37baee59d3efd048d7d8f7e6b8 = L.marker(
+                [34.755365, 32.417795],
+                {}
+            ).addTo(map_4a285f8c43465d250bf5c552cd9cec0c);
+        
+    
+            var icon_1bbe3ad7f5abd74ca13f8b1ac890a93d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3de28f37baee59d3efd048d7d8f7e6b8.setIcon(icon_1bbe3ad7f5abd74ca13f8b1ac890a93d);
+        
+    
+        var popup_552e3ab93daeb868ecf9597f12e8d838 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_3683f38272ed80b2c8a8570458edc6cd = $(`<div id="html_3683f38272ed80b2c8a8570458edc6cd" style="width: 100.0%; height: 100.0%;">     <span style='font-size:12pt; font-weight:bold'>Annabelle</span>     <br>Price: 2000-3000     <br>Rating: 8.9     </div>`)[0];
+                popup_552e3ab93daeb868ecf9597f12e8d838.setContent(html_3683f38272ed80b2c8a8570458edc6cd);
+            
+        
+
+        marker_3de28f37baee59d3efd048d7d8f7e6b8.bindPopup(popup_552e3ab93daeb868ecf9597f12e8d838)
+        ;
+
+        
+    
+    
+            var marker_29190d768969f1a62a5cb4b324758f6a = L.marker(
+                [34.740298, 32.434109],
+                {}
+            ).addTo(map_4a285f8c43465d250bf5c552cd9cec0c);
+        
+    
+            var icon_e4f760170c1b12673b2c287aee709681 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_29190d768969f1a62a5cb4b324758f6a.setIcon(icon_e4f760170c1b12673b2c287aee709681);
+        
+    
+        var popup_53edd858c449067e4d6b0a05143331c5 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_74b2ef5f10182a271a94cd32434dc9d2 = $(`<div id="html_74b2ef5f10182a271a94cd32434dc9d2" style="width: 100.0%; height: 100.0%;">     <span style='font-size:12pt; font-weight:bold'>Ivi Mare by Louis Hotels</span>     <br>Price: 2000-3000     <br>Rating: 9.3     </div>`)[0];
+                popup_53edd858c449067e4d6b0a05143331c5.setContent(html_74b2ef5f10182a271a94cd32434dc9d2);
+            
+        
+
+        marker_29190d768969f1a62a5cb4b324758f6a.bindPopup(popup_53edd858c449067e4d6b0a05143331c5)
+        ;
+
+        
+    
+    
+            var marker_22abcf7f66771d5f69ca16998a8fb2c7 = L.marker(
+                [34.747222, 32.425362],
+                {}
+            ).addTo(map_4a285f8c43465d250bf5c552cd9cec0c);
+        
+    
+            var icon_1b39ab15b3bfad152776f793b574b0ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_22abcf7f66771d5f69ca16998a8fb2c7.setIcon(icon_1b39ab15b3bfad152776f793b574b0ee);
+        
+    
+        var popup_56dea3410bd9505905af2139927c1c0c = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_19caf82d5803d611f5f9e095de9c34a4 = $(`<div id="html_19caf82d5803d611f5f9e095de9c34a4" style="width: 100.0%; height: 100.0%;">     <span style='font-size:12pt; font-weight:bold'>Olympic Lagoon Resort Paphos</span>     <br>Price: 2500-3000     <br>Rating: 9.2     </div>`)[0];
+                popup_56dea3410bd9505905af2139927c1c0c.setContent(html_19caf82d5803d611f5f9e095de9c34a4);
+            
+        
+
+        marker_22abcf7f66771d5f69ca16998a8fb2c7.bindPopup(popup_56dea3410bd9505905af2139927c1c0c)
+        ;
+
+        
+    
+    
+            var marker_6b34debe0de98664f4a4e3236a9e1287 = L.marker(
+                [34.771577, 32.406679],
+                {}
+            ).addTo(map_4a285f8c43465d250bf5c552cd9cec0c);
+        
+    
+            var icon_0f76f650edc714d8807ffd066e19825c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6b34debe0de98664f4a4e3236a9e1287.setIcon(icon_0f76f650edc714d8807ffd066e19825c);
+        
+    
+        var popup_46744a101ee99723683713521f1ce584 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_7b812d919288e691d4882ad9e4eec4a8 = $(`<div id="html_7b812d919288e691d4882ad9e4eec4a8" style="width: 100.0%; height: 100.0%;">     <span style='font-size:12pt; font-weight:bold'>Elysium</span>     <br>Price: 2500-3500     <br>Rating: 9.5     </div>`)[0];
+                popup_46744a101ee99723683713521f1ce584.setContent(html_7b812d919288e691d4882ad9e4eec4a8);
+            
+        
+
+        marker_6b34debe0de98664f4a4e3236a9e1287.bindPopup(popup_46744a101ee99723683713521f1ce584)
+        ;
+
+        
+    
+    
+            var marker_bd50111175dcb3ec2153d07d7b115ae5 = L.marker(
+                [34.854509, 32.374626],
+                {}
+            ).addTo(map_4a285f8c43465d250bf5c552cd9cec0c);
+        
+    
+            var icon_296009c8dbcee3d30b73ef6598dcb172 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_bd50111175dcb3ec2153d07d7b115ae5.setIcon(icon_296009c8dbcee3d30b73ef6598dcb172);
+        
+    
+        var popup_647f1ace9352675aa81d2791cef09e99 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_50069d395a9d83d9c05553c995469653 = $(`<div id="html_50069d395a9d83d9c05553c995469653" style="width: 100.0%; height: 100.0%;">     <span style='font-size:12pt; font-weight:bold'>Cali Resort & Spa Designed For Adults by Louis Hotels</span>     <br>Price: 2000-3000     <br>Rating: 9.3     </div>`)[0];
+                popup_647f1ace9352675aa81d2791cef09e99.setContent(html_50069d395a9d83d9c05553c995469653);
+            
+        
+
+        marker_bd50111175dcb3ec2153d07d7b115ae5.bindPopup(popup_647f1ace9352675aa81d2791cef09e99)
+        ;
+
+        
+    
+    
+            var marker_1903db066cdd1d2ea15bc911baa756cf = L.marker(
+                [34.82594, 32.391655],
+                {}
+            ).addTo(map_4a285f8c43465d250bf5c552cd9cec0c);
+        
+    
+            var icon_1bc07bc6c6a2402084b3c99f0cfff741 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1903db066cdd1d2ea15bc911baa756cf.setIcon(icon_1bc07bc6c6a2402084b3c99f0cfff741);
+        
+    
+        var popup_960b3ef53f2f7dc4085621116eb9a8c8 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_67ccd46187390a5815b273472b457838 = $(`<div id="html_67ccd46187390a5815b273472b457838" style="width: 100.0%; height: 100.0%;">     <span style='font-size:12pt; font-weight:bold'>Mare Paphos</span>     <br>Price: 2500-3500     <br>Rating: 8.9     </div>`)[0];
+                popup_960b3ef53f2f7dc4085621116eb9a8c8.setContent(html_67ccd46187390a5815b273472b457838);
+            
+        
+
+        marker_1903db066cdd1d2ea15bc911baa756cf.bindPopup(popup_960b3ef53f2f7dc4085621116eb9a8c8)
+        ;
+
+        
+    
+    
+            var marker_1c42705423b8bd450a1637dd17f2bb40 = L.marker(
+                [34.756482, 32.41412],
+                {}
+            ).addTo(map_4a285f8c43465d250bf5c552cd9cec0c);
+        
+    
+            var icon_e3efda48d74f650baf37c551bb18f439 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_1c42705423b8bd450a1637dd17f2bb40.setIcon(icon_e3efda48d74f650baf37c551bb18f439);
+        
+    
+        var popup_9f224a237780369803f14835126b2133 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_4049138d991de93d9f4e48a33d37836e = $(`<div id="html_4049138d991de93d9f4e48a33d37836e" style="width: 100.0%; height: 100.0%;">     <span style='font-size:12pt; font-weight:bold'>M Boutique Hotel - Designed for Adults</span>     <br>Price: 2000-3000     <br>Rating: 9.2     </div>`)[0];
+                popup_9f224a237780369803f14835126b2133.setContent(html_4049138d991de93d9f4e48a33d37836e);
+            
+        
+
+        marker_1c42705423b8bd450a1637dd17f2bb40.bindPopup(popup_9f224a237780369803f14835126b2133)
+        ;
+
+        
+    
+    
+            tile_layer_86529cebb4e98614324bc1972f3a0115.addTo(map_4a285f8c43465d250bf5c552cd9cec0c);
+        
+</script>
+</html>
